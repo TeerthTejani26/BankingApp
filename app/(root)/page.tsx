@@ -13,7 +13,7 @@ const Home = () => {
                         type='greeting'
                         title='Welcome'
                         user={loggedIn?.firstName || 'Guest'}
-                        subtext='Access and manage your account and transactions efficiently.'
+                        subtext='Access & manage your account and transactions efficiently.'
                     />
 
                     <TotalBalanceBox
